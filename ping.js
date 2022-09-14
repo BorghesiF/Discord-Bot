@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-    name: "ping", // Coloque o nome do seu comando
-    aliases: [""], // Coloque sinônimos do nome do comando
+    name: "ping", 
+    aliases: [""],
 
     run: async(client, message, args) => {
 
